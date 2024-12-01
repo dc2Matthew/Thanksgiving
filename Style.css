@@ -1,9 +1,13 @@
+
 .navbar {
   list-style: none;
   background-color: black;
 padding: 0px;
 margin: 0px;
 overflow: hidden;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
 .navbar a   {
