@@ -1,8 +1,15 @@
 
+* {
+  box-sizing: border-box;
+}
+
 .navbar {
+  width: 100%;
+
+  position:sticky;
   list-style: none;
   background-color: black;
-padding: 0px;
+  padding: 0px;
 margin: 0px;
 overflow: hidden;
 display: flex;
@@ -31,4 +38,64 @@ justify-content: center;
 .button-hub {
   display: flex;
   width: auto;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start  {
+  display: flex;
+  flex-direction: row;
+justify-content: space-evenly;
+
+}
+
+.title  {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-left: 0%;
+padding-right: 0%;
+}
+
+.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.box  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+color: aliceblue;
+}
+
+.text {
+display: flex;
+flex-direction: row;
+background-color:rgb(216, 216, 216);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.lower  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.side {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
 }
