@@ -98,4 +98,41 @@ background-color:rgb(216, 216, 216);
   display: flex;
   flex-direction: row;
   justify-content: right;
+  background-color: rgb(216, 216, 216);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  background-color: grey;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.bluebox {
+  border: solid blue;
+  background-color: blue;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+.bluebox:hover {
+  border: darkblue;
+  background-color: darkblue;
+  width: fit-content;
+  height: fit-content;
+}
+
+.bluebutton {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  font-family: "arial", sans-serif;
 }
